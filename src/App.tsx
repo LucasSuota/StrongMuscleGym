@@ -1,9 +1,9 @@
-import { Hero } from "./components";
+import { Header } from "./components";
 
 const App = () => {
   return (
-    <div className="bg-black">
-      <Hero />
+    <div>
+      <Header />
     </div>
   );
 };

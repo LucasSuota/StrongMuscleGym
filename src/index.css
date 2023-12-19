@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Lexend;
+  src: url("/src/assets/fonts/Lexend-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: LexendTera;
+  src: url("/src//assets/fonts/LexendTera-VariableFont_wght.ttf")
+    format("opentype");
+}
