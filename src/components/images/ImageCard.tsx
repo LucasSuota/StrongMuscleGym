@@ -1,6 +1,6 @@
 import { ImageCardType } from "../../types";
 
-const ImageCard = ({ title, image, backgroundColor }: ImageCardType) => {
+const ImageCard = ({ title, image }: ImageCardType) => {
   return (
     <div className="mb-8 flex flex-col items-center w-full">
       <img

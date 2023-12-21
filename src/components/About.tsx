@@ -14,12 +14,7 @@ const About = () => {
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-center w-full">
         {whoAreWeImages.map((card, index) => (
-          <ImageCard
-            key={index}
-            title={card.title}
-            image={card.image}
-            backgroundColor={card.backgroundColor}
-          />
+          <ImageCard key={index} title={card.title} image={card.image} />
         ))}
       </div>
     </section>
